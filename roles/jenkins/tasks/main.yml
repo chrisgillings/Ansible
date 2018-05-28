@@ -17,8 +17,8 @@
 - name: Install Jenkins
   yum:
     name: jenkins
-    #enablerepo: jenkins
-    enablerepo: pkg.jenkins-ci.org_redhat
+    enablerepo: jenkins
+    #enablerepo: pkg.jenkins-ci.org_redhat
     state: present
 
 - name: Start Jenkins
