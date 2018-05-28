@@ -1,0 +1,9 @@
+---
+- name: install nodejs
+  yum:
+    name: "{{ item }}"
+    enablerepo: epel
+    state: installed
+  with_items:
+    - nodejs
+    - npm
