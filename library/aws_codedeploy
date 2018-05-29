@@ -101,7 +101,7 @@ def main():
     module = AnsibleModule(
         argument_spec = dict(
             #enabled   = dict(required=True, choices=BOOLEANS) # TODO actually use this
-            enabled   = dict(required=True, choices=['yes', 'no']) # TODO actually use this
+            enabled   = dict(required=True, choices=['yes', 'no'])
         )
     )
 
